@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net" modified="2024-06-25T07:17:36.503Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="3dBz7J3WnTsl0E4Fl4Wo" version="24.6.2" type="github">
+  <diagram name="Page-1" id="qFVBHkHBw4b_CVT9rcfi">
+    <mxGraphModel dx="910" dy="434" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-1" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="150" width="76.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="196" as="sourcePoint" />
+            <mxPoint x="280" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-4" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cloudwatch;fillColor=#759C3E;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="280" y="150" width="82.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-5" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="196" as="sourcePoint" />
+            <mxPoint x="490" y="196" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-6" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.lambda_function;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="160.5" width="69" height="79.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-7" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ses;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="150" width="79.5" height="93" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;width=10;endSize=7;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="196" as="sourcePoint" />
+            <mxPoint x="650" y="196" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-11" value="" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.mail;" vertex="1" parent="1">
+          <mxGeometry x="790" y="170" width="30" height="16.5" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-12" value="" style="verticalLabelPosition=bottom;html=1;verticalAlign=top;align=center;strokeColor=none;fillColor=#00BEF2;shape=mxgraph.azure.computer;pointerEvents=1;" vertex="1" parent="1">
+          <mxGeometry x="850" y="170" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-13" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;fillColor=#0050ef;strokeColor=#001DBC;width=10;endSize=7;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="199.75" as="sourcePoint" />
+            <mxPoint x="840" y="200" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-14" value="EC2 Instance state change" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="58.25" y="260" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-15" value="Cloudwatch Event Rule triggered" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="260" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-16" value="Lambda Function" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="489.5" y="260" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-17" value="SES" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="100.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="MdRhkjwS5PJhxAN1yzCu-18" value="Receiver" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="800" y="260" width="120" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
